@@ -15,7 +15,7 @@ namespace DemoAPI
 {
     public class Startup
     {
-        private int a = 1;
+        // private int a = 1;
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
