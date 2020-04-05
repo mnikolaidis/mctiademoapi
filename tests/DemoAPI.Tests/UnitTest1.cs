@@ -19,7 +19,7 @@ namespace DemoAPI.Tests
         public void GetWeeklyForecast()
         {
             var count = controller.Get().Count();
-            Assert.Equal(4, count);
+            Assert.Equal(5, count);
         }
     }
 }
